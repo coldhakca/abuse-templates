@@ -3,7 +3,9 @@ Templates for dealing with relay abuse notifications
 
 ## Templates
 
-*	CCIRC - A response which satisfies Public Safety's CCIRC
+All templates are actually bash scripts which end in `.template`, which are sourced in and MUST be syntactically valid bash. Please keep output widths to 80 columns.
+
+*	CCIRC - A response which satisfies Public Safety's CCIRC notifications.
 *	etc
 
 ## Script Usage
