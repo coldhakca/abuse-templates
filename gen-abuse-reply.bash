@@ -1,10 +1,9 @@
 #!/bin/bash
 
-if [ $# -eq 0 ]; then
-    echo "Usage:"
-    echo "  ./gen-abuse-reply.bash <template> <IP>"
-    echo "    template: ccirc, etc. Abuse template should end in .template"
-    echo "    IP: the IP which we are responding for"
+if [ $# -ne 2 ]; then
+    echo "Usage: $0 <template> <IP>"
+    echo "  template: Abuse template which should end in .template"
+    echo "  IP: IP which we are generating response for"
     exit 1
 fi
 
