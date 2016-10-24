@@ -1,5 +1,5 @@
 # CCIRC / CCRIC template
-'''
+```
 Greetings,
 
 The IP that relates to this notification is a Tor Exit Node [1]. Tor is software that enables access to information, and furthers privacy and security on the Internet. For more information please see the project website [2].
@@ -14,4 +14,4 @@ Coldhak
 [1] http://$REPLACEME.relay.coldhak.com/
 [2] https://torproject.org/
 [3] https://check.torproject.org/exit-addresses
-'''
+```
