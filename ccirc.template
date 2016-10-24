@@ -1,0 +1,25 @@
+# CCIRC / CCRIC template
+
+cat <<Endofmessage
+Greetings,
+
+The IP [1] that relates to this notification is a Tor Exit Node [2]. Tor is 
+software that enables access to information, and furthers privacy and security 
+on the Internet. For more information please see the project website [3].
+
+Browsing to that IP address with a web browser or performing a reverse lookup 
+in DNS further communicates this fact.
+
+We would suggest that in the future automated tools are used to filter out 
+communications relating to Tor Exit Nodes. A complete list of exit nodes is 
+publicly available [4].
+
+All the best,
+Coldhak
+
+[1] $IP
+[2] http://$HOST/
+[3] https://torproject.org/
+[4] https://check.torproject.org/exit-addresses
+
+Endofmessage
